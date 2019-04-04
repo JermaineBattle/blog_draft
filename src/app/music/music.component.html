@@ -1,0 +1,71 @@
+<div class="music-container"  >
+
+  <div class="fixed-ad-container-top">
+    <h2>FIXED AD CONTAINER</h2>
+  </div>
+  <div class="fixed-ad-container">
+    <h2>FIXED AD CONTAINER</h2>
+  </div>
+  <!-- HEADLINE ARTICLE-->
+  <div class="content-container">
+  <!-- STORY 1 BEGINS  -->
+    <div class="story story-1">
+      <img class="story-image" src="../assets/cardi.jpg"/>
+      <div class="story-text">
+        <div class="date_and_category">
+          <h6 class="date" *ngIf="posts?.length">4/2/2019{{posts[posts.length -1].date}}</h6>
+          <h6 class="category" *ngIf="posts?.length">{{posts[posts.length -1].category}}</h6>
+        </div>
+        <br>
+        <h2 class="headline" *ngIf="posts?.length" >{{ posts[posts.length - 1].headline}}</h2>
+        <br>
+          <p class="article" *ngIf="posts?.length" >{{ posts[posts.length - 3].article}}</p>
+      </div>
+    </div>
+
+    <div class="story story-2 ">
+      <img class="story-image" src="../assets/cardi.jpg"/>
+      <div class="story-text">
+        <div class="date_and_category">
+          <h6 class="date" *ngIf="posts?.length">4/2/2019{{posts[posts.length -1].date}}</h6>
+          <h6 class="category" *ngIf="posts?.length">{{posts[posts.length -1].category}}</h6>
+        </div>
+        <br>
+        <h2 class="headline" *ngIf="posts?.length" >{{ posts[posts.length - 1].headline}}</h2>
+        <br>
+          <p class="article" *ngIf="posts?.length" >{{ posts[posts.length - 3].article}}</p>
+      </div>
+    </div>
+
+    <div class="story story-3">
+      <img class="story-image" src="../assets/cardi.jpg"/>
+      <div class="story-text">
+        <div class="date_and_category">
+          <h6 class="date" *ngIf="posts?.length">4/2/2019{{posts[posts.length -1].date}}</h6>
+          <h6 class="category" *ngIf="posts?.length">{{posts[posts.length -1].category}}</h6>
+        </div>
+        <br>
+        <h2 class="headline" *ngIf="posts?.length" >{{ posts[posts.length - 1].headline}}</h2>
+        <br>
+          <p class="article" *ngIf="posts?.length" >{{ posts[posts.length - 3].article}}</p>
+      </div>
+    </div>
+
+    <div class="story story-4">
+      <img class="story-image" src="../assets/cardi.jpg"/>
+      <div class="story-text">
+        <div class="date_and_category">
+          <h6 class="date" *ngIf="posts?.length">4/2/2019{{posts[posts.length -1].date}}</h6>
+          <h6 class="category" *ngIf="posts?.length">{{posts[posts.length -1].category}}</h6>
+        </div>
+        <br>
+        <h2 class="headline" *ngIf="posts?.length" >{{ posts[posts.length - 1].headline}}</h2>
+        <br>
+          <p class="article" *ngIf="posts?.length" >{{ posts[posts.length - 3].article}}</p>
+      </div>
+    </div>
+    </div>
+
+  
+
+  </div>
